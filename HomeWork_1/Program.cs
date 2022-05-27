@@ -60,7 +60,11 @@ namespace HomeWork_1
                     for (int i = 0; i < brr.Length; i++)
                     {
                         brr[i] = int.Parse(Console.ReadLine());
-                        if (brr[i] >= 10) Console.WriteLine($"Error!!! Неправильно наброна цифра!");
+                        if (brr[i] >= 10)
+                        {
+                            Console.WriteLine($"Error!!! Неправильно наброна цифра!");
+                            goto case 3;
+                        }
                     }
                     Console.Write($"Шестизначное число: ");
                     for (int i = 0; i < brr.Length; i++) Console.Write($"{brr[i]}");
