@@ -19,7 +19,7 @@ namespace HomeWork_2
         }
         static void Main(string[] args)
         {
-            //Task 1, 2
+            // Task 1, 2
             //int[] arr = new int[10];
             //Console.WriteLine($"Введите значение элементов массива: ");
             //for (int i = 0; i < arr.Length; i++) arr[i] = int.Parse(Console.ReadLine());
@@ -27,7 +27,7 @@ namespace HomeWork_2
             //Console.WriteLine($"\nВывод чётных элементов массива:");
             //foreach (int num in arr)
             //{
-            //    if (num % 2 == 0) Console.Write($"{num}\t"); 
+            //    if (num % 2 == 0) Console.Write($"{num}\t");
             //}
             //Console.WriteLine($"\nВывод нечётных элементов массива:");
             //foreach (int num in arr)
@@ -40,7 +40,7 @@ namespace HomeWork_2
             //for (int i = 0; i < arr.Length - n; i++) Console.Write($"{arr[i]}\t");
 
             // Task 3
-            //int[] brr = new int[5] {765, 34, 765, 8, 765};
+            //int[] brr = new int[5] { 765, 34, 765, 8, 765 };
             //int count = 0;
             //Console.Write($"Введите число: ");
             //int number = int.Parse(Console.ReadLine());
@@ -53,41 +53,41 @@ namespace HomeWork_2
             //Task 4
             //const int M = 4;
             //const int N = 4;
-            // int[] arr = new int[M];
-            // Console.WriteLine($"Введите эелементы первого массива: ");
-            // for (int i = 0; i < arr.Length; i++) arr[i] = int.Parse(Console.ReadLine());
-            // Console.WriteLine($"Первый массив: ");
-            // foreach (int num in arr) Console.Write($"{num}\t");
-            // int[] brr = new int[N];
-            // Console.WriteLine($"\nВведите эелементы второго массива: ");
-            // for (int i = 0; i < brr.Length; i++) brr[i] = int.Parse(Console.ReadLine());
-            // Console.WriteLine($"Второй массив: ");
-            // foreach (int num in brr) Console.Write($"{num}\t");
-            // int count = 0;
-            // for (int i = 0; i < M; i++)
-            // {
-            //     for (int j = 0; j < N; j++)
-            //     {
-            //         if (arr[i] == brr[j]) count++;
-            //     }
-            // }
-            // Console.Write($"\nКоличество совпадений: {count}");
-            // int p = count;
-            // int[] crr = new int[p];
-            // p = 0;
-            // for (int j = 0; j < N; j++)
-            // {
-            //     for (int k = 0; k < M; k++)
-            //     {
-            //         if (brr[j] == arr[k])
-            //         {
-            //             crr[p] = brr[j];
-            //             p++;
-            //         }
-            //     }
-            // }
-            // Console.WriteLine($"\nРезультирующий масиив: ");
-            // for (int i = 0; i < p; i++) Console.Write($"{crr[i]}\t");
+            //int[] arr = new int[M];
+            //Console.WriteLine($"Введите эелементы первого массива: ");
+            //for (int i = 0; i < arr.Length; i++) arr[i] = int.Parse(Console.ReadLine());
+            //Console.WriteLine($"Первый массив: ");
+            //foreach (int num in arr) Console.Write($"{num}\t");
+            //int[] brr = new int[N];
+            //Console.WriteLine($"\nВведите эелементы второго массива: ");
+            //for (int i = 0; i < brr.Length; i++) brr[i] = int.Parse(Console.ReadLine());
+            //Console.WriteLine($"Второй массив: ");
+            //foreach (int num in brr) Console.Write($"{num}\t");
+            //int count = 0;
+            //for (int i = 0; i < M; i++)
+            //{
+            //    for (int j = 0; j < N; j++)
+            //    {
+            //        if (arr[i] == brr[j]) count++;
+            //    }
+            //}
+            //Console.Write($"\nКоличество совпадений: {count}");
+            //int p = count;
+            //int[] crr = new int[p];
+            //p = 0;
+            //for (int j = 0; j < N; j++)
+            //{
+            //    for (int k = 0; k < M; k++)
+            //    {
+            //        if (brr[j] == arr[k])
+            //        {
+            //            crr[p] = brr[j];
+            //            p++;
+            //        }
+            //    }
+            //}
+            //Console.WriteLine($"\nРезультирующий масиив: ");
+            //for (int i = 0; i < p; i++) Console.Write($"{crr[i]}\t");
 
             //Task 5
             //int[,] Arr = new int[,] { { 1, 2, 3, 4 }, { 5, 6, 7, 8 } };
@@ -103,14 +103,17 @@ namespace HomeWork_2
             //Console.WriteLine($"Количество слов в строке: {strArr.Length}");
             //Console.WriteLine($"Реверсирование строки: ");
             //for (int i = str.Length - 1; i >= 0; --i) Console.Write(str[i]);
-            //string str_l = str.ToLower();
+
+            //Task 8
+            //Console.WriteLine($"Введите строку: ");
+            //string str = Console.ReadLine().ToLower();
             //int count = 0;
-            //for (int i = 0; i < str_l.Length; i++)
+            //for (int i = 0; i < str.Length; i++)
             //{
             //    if
             //        (
-            //        str_l.Contains("а") || str_l.Contains("е") || str_l.Contains("ё") || str_l.Contains("и") || str_l.Contains("о") ||
-            //        str_l.Contains("у") || str_l.Contains("ы") || str_l.Contains("э") || str_l.Contains("ю") || str_l.Contains("я")
+            //        str[i] == 'а' || str[i] == 'е' || str[i] == 'ё' || str[i] == 'и' || str[i] == 'о' ||
+            //        str[i] == 'у' || str[i] == 'ы' || str[i] == 'э' || str[i] == 'ю' || str[i] == 'я'
             //        )
             //        count++;
             //}
