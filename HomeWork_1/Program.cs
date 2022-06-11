@@ -88,7 +88,7 @@ namespace HomeWork_1
                         one = two;
                         two = res;
                     }
-                    while (res < end);
+                    while (res + one <= end);
                     break;
 
                 case 5:
