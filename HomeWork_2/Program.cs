@@ -19,7 +19,7 @@ namespace HomeWork_2
         }
         static void Main(string[] args)
         {
-            // Task 1, 2
+            //Task 1, 2
             //int[] arr = new int[10];
             //Console.WriteLine($"Введите значение элементов массива: ");
             //for (int i = 0; i < arr.Length; i++) arr[i] = int.Parse(Console.ReadLine());
@@ -95,7 +95,7 @@ namespace HomeWork_2
             //Console.WriteLine($"Миримальное значение массива: {min}");
             //Console.WriteLine($"Максимальное значение массива: {max}");
 
-            //Task 6, 7, 8
+            //Task 6, 7
             //Console.WriteLine($"Введите строку: ");
             //string str = Console.ReadLine();
             //Console.WriteLine($"str: {str}");
